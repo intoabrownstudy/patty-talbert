@@ -1,8 +1,102 @@
 /*
 Theme Name: PTtheme
-Theme URI: http://wordpress.org/themes/twentyfourteen
+Theme URI: http://treblatyttap.com
+Description: Patty Talbert
+Version: 1
 Author: Paul Hutchinson
-Description: Original theme for http://treblatyttap.com/ a website for Patty Talbert
-Version: 1.0
-
+Author URI: http://www.omahacodeschool.com/
 */
+
+/* Normalize / Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* LAYOUT STUFF */
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.site-title {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.site-title a {
+  color: black;
+}
+
+.header {
+  float: right;
+}
+
+.top-nav {
+  color: black;
+}
+
+.top-nav li {
+  display: inline;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.nav-item {
+  color: black;
+}
+
+.body-wrapper {
+  
+}
+
+/* STYLE STUFF */
+
+.content-wrapper {
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  background: #04E1BF;
+  text-decoration: none;
+  text-color: black;
+  font-size: 120%;
+}
+
+.site-title {
+  text-decoration: none;
+  text-color: #000303;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.header {
+  text-decoration: none;
+  text-color: #000303;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.banner {
+  font-family: "Arial Narrow", sans-serif;
+  background: #04E1BF;
+}
+
+.body-wrapper {
+  
+}
