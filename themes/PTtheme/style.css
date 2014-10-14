@@ -38,8 +38,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .site-title {
-  padding-left: 20px;
-  padding-top: 10px;
+  padding-left: 30px;
+  padding-top: 25px;
 }
 
 .site-title a {
@@ -56,16 +56,22 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .top-nav li {
   display: inline;
-  padding-right: 20px;
-  padding-bottom: 10px;
-}
-
-.nav-item {
-  color: black;
+  padding-right: 30px;
+  padding-bottom: 20px;
 }
 
 .body-wrapper {
-  
+  width: 50%;
+}
+
+.banner-image {
+  padding-left: 30px;
+}
+
+.content {
+  float: right;
+  width: 50%;
+  text-align: right;
 }
 
 /* STYLE STUFF */
@@ -73,7 +79,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .content-wrapper {
   font-family: Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  background: #04E1BF;
+  background: #CCC;
   text-decoration: none;
   text-color: black;
   font-size: 120%;
@@ -81,20 +87,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .site-title {
   text-decoration: none;
-  text-color: #000303;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav-item {
+  color: black;
 }
 
 
 .header {
   text-decoration: none;
-  text-color: #000303;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.banner {
-  font-family: "Arial Narrow", sans-serif;
-  background: #04E1BF;
+.banner-image {
+  
 }
 
 .body-wrapper {
