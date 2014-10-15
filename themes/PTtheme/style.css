@@ -72,13 +72,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .main-image {
-  width: 66%;
+  width: 33%;
+  margin: 0px;
 }
 
 .content {
-  display: inline-block;
+  border: -2px black solid;
+  display: inline;
+  float: right;
   width: 33%;
-  text-align: right;
+  text-align: center;
 }
 
 .footer {
@@ -121,6 +124,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .body-wrapper {
   
+}
+
+.content {
+  border: 2px black solid;
+}
+
+.content h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.content p {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .footer {
