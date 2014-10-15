@@ -52,6 +52,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .top-nav {
   color: black;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 
 .top-nav li {
@@ -72,6 +74,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   float: right;
   width: 50%;
   text-align: right;
+}
+
+.footer {
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 
 /* STYLE STUFF */
@@ -107,3 +114,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .body-wrapper {
   
 }
+
+.footer {
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  background: #CCC;
+  text-color: black;
+  font-size: 120%;
+  text-align: right;
+}
+
+.footer h2{
+ padding-right: 30px;
+ font-size: 70%;
+ 
+}
+
