@@ -1,21 +1,21 @@
-<?php
-<<<<<<< HEAD
-// Silence is golden.
-=======
-/**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
- */
+<?php get_header() ?>
 
-/**
- * Tells WordPress to load the WordPress theme and output it.
- *
- * @var bool
- */
-define('WP_USE_THEMES', true);
+  <div class="body-wrapper">
+    <div class= "main-image">
+      <img src="images/patty_talbert_lilies.png" width="600" height="540" alt="Patty Talbert">
+    </div>    
+    <div class="events-sidebar">
+      <h1>Events</h1>
+      <ul>
+        <li>Sample content</li>
+        <li>Sample content</li>
+        <li>Sample content</li>
+        <li>Sample content</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</body>
 
-/** Loads the WordPress Environment and Template */
-require( dirname( __FILE__ ) . '/wp-blog-header.php' );
->>>>>>> 91cd1b16800aad9f625945f36050445e51ca117c
+<?php get_footer() ?>
