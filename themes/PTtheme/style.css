@@ -72,16 +72,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .main-image {
+  padding: 0px;
   width: 33%;
   margin: 0px;
 }
 
-.content {
-  border: -2px black solid;
+.events-sidebar {
+  border: 2px black solid;
   display: inline;
   float: right;
   width: 33%;
   text-align: center;
+  padding: 0px;
 }
 
 .footer {
@@ -119,23 +121,30 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .main-image {
-  
+
 }
 
 .body-wrapper {
   
 }
 
-.content {
-  border: 2px black solid;
+.events-sidebar {
+  border: 4px black solid;
+  padding: 5px;
 }
 
-.content h1 {
+.events_sidebar .ul {
+  padding: 0px;
+}
+
+.events-sidebar h1 {
+  border: 1px black solid;
   font-family: Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 
-.content p {
+.events-sidebar li {
+  list-style-type: none;
   font-family: Helvetica, Arial, sans-serif;
 }
 
