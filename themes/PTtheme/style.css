@@ -74,8 +74,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .main-image {
   padding: 0px;
   width: 33%;
-  margin: 0px;
+  height: 540px;
+  margin-left: 10px;
   float: left;
+  background-image: url('images/patty_talbert_lilies.png');
 }
 
 .page-title {
