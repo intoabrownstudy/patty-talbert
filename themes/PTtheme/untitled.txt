@@ -1,0 +1,8 @@
+<!-- Footer Content -->
+
+<?php wp_main_image(); ?>
+
+  
+<div class= "main-image">
+  <img src="images/patty_talbert_lilies.png" width="600" height="540" alt="Patty Talbert">
+</div>  

@@ -16,8 +16,6 @@
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-
-  <?php wp_head(); ?>
   
 </head>
 <div class= "content-wrapper clearfix">
@@ -35,4 +33,5 @@
       </ul>
     </div>
   </div>
+</div>
   <body>
