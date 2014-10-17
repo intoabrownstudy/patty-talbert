@@ -27,18 +27,3 @@
 </html>
 
 <?php get_footer() ?>
-
-    <div class="main-body">
-      <div class= "title-banner clearfix">
-        <div class= "page-title">
-          <?php $title = single_term_title('', false) ?>
-          <?php if (gettype( $title )=="string" ): ?>
-            <h1><?php echo $title ?></h1>
-          <?php else: ?>
-            <h1><?php the_title() ?></h1>
-          <?php endif ?>
-        </div>
-        <div class= "social-media">
-          <h2>Follow | t | f</h2>
-        </div>
-      </div>

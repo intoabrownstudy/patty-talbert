@@ -86,7 +86,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 2px black solid;
   display: inline;
   float: right;
-  width: 33%;
+  width: 50%;
   text-align: center;
   margin: 15px 100px 15px 0px;
   padding: 5px;
@@ -105,9 +105,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 2px;
 }
 
-.gallery-item {
-  margin-left: auto; 
-  margin-right: auto; 
+.gallery-1 {
+  height: 400px;
+}
+
+.gallery-1 .gallery-caption {
+  background: #CCC;
+  padding:2px;
+  margin: 0px 20px;
 }
 
 .footer {
@@ -182,6 +187,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .events-sidebar a:hover {
   color: #CCC;
+}
+
+.gallery-caption {
+  background: #CCC;
+  padding:2px;
 }
 
 .footer {

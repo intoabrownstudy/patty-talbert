@@ -26,7 +26,7 @@
   <div class="header">
     <div class= "top-nav">
       <ul>
-        <li class="top-nav"><a href="#" class="nav-item">Home</a></li>
+        <li class="top-nav"><a href="" class="nav-item">Home</a></li>
         <li class="top-nav"><a href="#" class="nav-item">Portfolio</a></li>
         <li class="top-nav"><a href="#" class="nav-item">Bio</a></li>
         <li class="top-nav"><a href="#" class="nav-item">Contact</a></li>
@@ -34,4 +34,4 @@
     </div>
   </div>
 </div>
-  <body>
+<body>
