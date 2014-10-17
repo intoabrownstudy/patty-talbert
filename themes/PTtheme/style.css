@@ -78,22 +78,36 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   float: left;
 }
 
+.page-title {
+  margin-bottom: 5px;
+}
+
 .events-sidebar {
   border: 2px black solid;
   display: inline;
   float: right;
   width: 33%;
   text-align: center;
-  margin: 15px;
-  padding-left: 0px;
+  margin: 15px 100px 15px 0px;
+  padding: 5px;
 }
 
 .events-sidebar h1 {
   padding: 5px;
 }
 
+.events-sidebar p {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
 .events-sidebar li {
   padding: 2px;
+}
+
+.gallery-item {
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .footer {
@@ -140,24 +154,34 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .events-sidebar {
   border: 4px black solid;
-  padding: 5px;
+  font-family: Helvetica, Arial, sans-serif
 }
 
 .events-sidebar h1 {
   border: 1px black solid;
+  font-size: 120%;
   font-family: Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  
 }
 
 .events-sidebar li {
   list-style-type: none;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
 }
 
 .events-sidebar ul {
   padding-left: 0px;
+}
+
+.events-sidebar a {
+  font-weight: 200;
+  color: gray;
+}
+
+.events-sidebar a:hover {
+  color: #CCC;
 }
 
 .footer {
